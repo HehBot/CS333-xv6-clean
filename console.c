@@ -4,12 +4,10 @@
 
 #include "defs.h"
 #include "file.h"
-#include "fs.h"
 #include "memlayout.h"
 #include "mmu.h"
 #include "param.h"
 #include "proc.h"
-#include "sleeplock.h"
 #include "spinlock.h"
 #include "traps.h"
 #include "types.h"

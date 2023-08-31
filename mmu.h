@@ -1,3 +1,6 @@
+#ifndef XV6_MMU_H
+#define XV6_MMU_H
+
 // This file contains definitions for the
 // x86 memory management unit (MMU).
 
@@ -185,3 +188,5 @@ struct gatedesc {
         }
 
 #endif
+
+#endif // XV6_MMU_H

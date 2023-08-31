@@ -1,3 +1,6 @@
+#ifndef XV6_TRAPS_H
+#define XV6_TRAPS_H
+
 // x86 trap and interrupt constants.
 
 // Processor-defined:
@@ -35,3 +38,5 @@
 #define IRQ_IDE 14
 #define IRQ_ERROR 19
 #define IRQ_SPURIOUS 31
+
+#endif // XV6_TRAPS_H
